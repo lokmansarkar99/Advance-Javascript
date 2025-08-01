@@ -1,0 +1,106 @@
+/* General Body Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Main Container */
+.languages {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #4a4a4a;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 15px;
+}
+
+/* List Styles */
+#list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#list li {
+    font-size: 1.2rem;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#list li:hover {
+    background-color: #e9e9e9;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+/* Input and Button Container */
+.languages > div {
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+/* Input Field */
+#lan_input {
+    flex-grow: 1;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: border-color 0.2s ease;
+}
+
+#lan_input:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.2);
+}
+
+/* Button */
+#add_btn {
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+#add_btn:hover {
+    background-color: #357abd;
+}
+
+#add_btn:active {
+    transform: scale(0.98);
+}
+
+/* Colors for Javascript and Other Languages */
+.javascript-bg {
+    background-color: #fdd835 !important;
+}
+
+.other-bg {
+    background-color: #66bb6a !important;
+}
